@@ -16,6 +16,6 @@ int main() {
 // function definition 
 void printHello(){
     printf("Hello abhishek\n");
-    printf("My name is Deepak patel\n");
+    printf("My name is a Abhishek Yadav\n ");
 
 }

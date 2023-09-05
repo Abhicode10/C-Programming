@@ -2,11 +2,10 @@
 int main()
 {
     int day;
-    printf("enter day(1-7) :");
+    printf("Enter day(1-7) to print day name :");
     scanf("%d", &day);
-
     switch (day){
-        case 1 : printf("monday \n");
+        case 1 : printf("Monday \n");
         break;
         case 2: printf("Tuesday \n");
         break;
@@ -14,16 +13,13 @@ int main()
         break;
         case 4: printf("Thursday \n");
         break;
-        case 5: printf("friday \n");
+        case 5: printf("Friday \n");
         break;
         case 6: printf("Saturday \n");
         break;
         case 7: printf("Sunday \n");
         break;
         default : printf("Not valid day \n");
-    
     }
-        return 0;
-
-    
+    return 0;
 }
